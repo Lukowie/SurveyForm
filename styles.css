@@ -1,0 +1,86 @@
+body{
+    background: url("https://cdn.pixabay.com/photo/2017/05/09/03/46/alberta-2297204_960_720.jpg");
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(10, 10, 10, 0.7);
+    margin: 0;
+    padding-bottom: 10vh;
+    min-height: 100%;
+    font-family: Roboto;
+    color: white;
+  }
+  p .description, h1 {
+    margin:0;
+    padding: 0;
+  }
+  
+  h1 {
+    padding-top: 5vh;
+    font-size: 40px;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .form-container {
+    font-size: 20px;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    max-width: 700px;
+    min-width: 300px;
+    background: linear-gradient(rgba(30,10,60, 0.7), rgba(30,10,50, 0.2), rgba(30,10,50, 0.7));
+    border-radius: 10px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="number"], label, select, textarea {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  input[type="radio"]{
+    display: inline-block;
+    vertical-align: middle;
+    height: 2rem;
+    width: 1.2rem;
+  }
+  
+  fieldset{
+    border: none;
+  }
+  
+  .smalltext {
+    font-size: 14px;
+    display: inline;
+    vertical-align: middle;
+  }
+  
+  input[type="text"],  input[type="email"], input[type="number"], select, textarea{
+    margin-top: 10px;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    margin-bottom: 1.3rem;
+  }
+  
+  input[name="submit"]{
+    width: 100%;
+    font-size: 18px;
+    font-family: Roboto;
+    height: 2.5rem;
+    color: white;
+    background-color: rgb(10,200,90);
+    border:none;
+    border-radius: 3px;
+    display: block;
+  }
+  input[name="submit"]:hover{
+    background-color: rgb(10,150,90)
+  }
+  
+  textarea {
+    padding-top: 10px;
+    height: 15vh;
+  }
