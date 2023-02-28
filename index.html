@@ -11,18 +11,18 @@
 </head>
 <body>
   <div class="container">
-      <h1 id="title">Lochis' Survey Form</h1>
-      <p id="description">This is my form I will use for all my survey gathering needs</p>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Thanks for sending me your data</p>
 
       <div class="form-container">
-        <form id="survey-form" onsubmit="alert('yup, submitted')">
+        <form id="survey-form">
             <fieldset>
           <label id="name-label" for="name" >Name<input type="text" name="name" id="name" placeholder="Enter your name" required></label>
           <label id="email-label" for="email">Email<input type="email" name="email" id="email" placeholder="Enter your email" required></label>
             <label id="number-label" for="age">Age (optional)<input type="number" name="age" id="number" min="10" max="99" placeholder="Enter your age"></label>
             </fieldset>
             <fieldset>
-              Would you recommend Lochis ever?
+              Would you recommend learning to program?
               <label for="forsure">
               <input type="radio" value="forsure" name="recommend">
               For Sure!
@@ -39,43 +39,28 @@
               </label>
               </fieldset>
             <fieldset>
-              <label for="dropdown">Whats your favourite type of Lochis?
+              <label for="dropdown">Whats your favourite type of Animal?
                 <select id="dropdown">
                   <option>(select one)</option>
-                  <option>King CEO Lochis</option>
-                  <option>Winner Winner Chicken Dinner Lochis</option>
+                  <option>Cat</option>
+                  <option>Dog
+                  </option>
+                  <option>Frog
+                  </option>
+                  <option>Log?
+                  </option>
                   </select>
             </fieldset>
 
             <fieldset>
-              How can Lochis improve? <div class="smalltext">(Check all that apply)</div>
+              How can this form improve? <div class="smalltext">(Check all that apply)</div>
               <label for="1">
               <input type="checkbox" value="1" id="1">
-              He can't, he's perfect.
+              Create a real world example
               </label>
               <label for="2">
               <input type="checkbox" value="2" id="2">
-              He can't, he's perfect.
-              </label>
-              <label for="3">
-              <input type="checkbox" value="3" id="3">
-              He can't, he's perfect.
-              </label>
-              <label for="4">
-              <input type="checkbox" value="4" id="4">
-              He can't, he's perfect.
-              </label>
-              <label for="5">
-              <input type="checkbox" value="5" id="5">
-              Listen here bing boy, quit trying to find a flaw.
-              </label>
-              <label for="6">
-              <input type="checkbox" value="6" id="6">
-              Okay, you got me. It's all a front. I'm far from perfect.
-              </label>
-              <label for="6">
-              <input type="checkbox" value="6" id="6">
-              He could probably be more consistent with tackling his goals.
+              Create a form to gather music submissions to automate uploads
               </label>
             </fieldset>
             <fieldset>
